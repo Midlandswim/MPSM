@@ -4,13 +4,13 @@
   Advisor: Mr. Liva (BCA)
   Class: Engineering Research
   Date: 01/30/2023 
-  Last Updated: 02/02/2023
+  Last Updated: 02/10/2023
 
   Notes: 
     -Made using the Arduino IDE for the Adafruit Feather Huzzah esp8266 
     -Some code was taken from the TSL2591 Library from Adafruit, that code does not belong to me, the rest was written by yours truly!
     -Ignore all my comments, some of this code was written at the dead of night, and so my contextual sanity was questionable... (haha)
-    -Also ignore the Wifi Credentials (oops you got my school's network tokens)
+    -Replace the Wifi Credentials with your own network (or the one you're currently veiwing this on)
 */
 
 //Libraries
@@ -43,9 +43,9 @@ int raw;    //raw read value from A0 or 17
 int volt;   //inital volt conversion with decent degree of error
 int volt2;  //secondary volt conversion with minimal degree of error
 //wifi
-const char* UBIDOTS_TOKEN = "BBFF-kdcXABSmCfmapAA4LTDLU59WMhIBY7";  //UbidotsToken
-const char* WIFI_SSID = "Bergen-Staff";                             //WifiSSID
-const char* WIFI_PASS = "I@m@nEduc@tor";                            //WifiPass
+const char* UBIDOTS_TOKEN = "BBFF-kdcXABSmCfmapAA4LTDLU59WMhIBY7";    //UbidotsToken
+const char* WIFI_SSID = "enterYourWifiSSIDHere";                      //WifiSSID
+const char* WIFI_PASS = "enterYourWifiPasswordHere";                  //WifiPass
 Ubidots ubidots(UBIDOTS_TOKEN, UBI_HTTP);
 
 //Config Functions
