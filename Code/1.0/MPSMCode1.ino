@@ -44,8 +44,8 @@ int volt;   //inital volt conversion with decent degree of error
 int volt2;  //secondary volt conversion with minimal degree of error
 //wifi
 const char* UBIDOTS_TOKEN = "BBFF-kdcXABSmCfmapAA4LTDLU59WMhIBY7";    //UbidotsToken
-const char* WIFI_SSID = "enterYourWifiSSIDHere";                      //WifiSSID
-const char* WIFI_PASS = "enterYourWifiPasswordHere";                  //WifiPass
+const char* WIFI_SSID = "WIFISSIDHere";                      //WifiSSID
+const char* WIFI_PASS = "WIFIPASSHere";                  //WifiPass
 Ubidots ubidots(UBIDOTS_TOKEN, UBI_HTTP);
 
 //Config Functions
