@@ -1,10 +1,15 @@
 /*
   Projekt: MPSM
   Names: Wilson Dhalwani 
-  Advisor: Mr. Liva
-  Context: Engineering Research
-  Date: 02/02/2023 
+  Advisor: Mr. Liva (BCA)
+  Class: Engineering Research
+  Date: 01/30/2023 
   Last Updated: 02/10/2023
+  Notes: 
+    -Made using the Arduino IDE for the Adafruit Feather Huzzah esp8266 
+    -Some code was taken from the TSL2591 Library from Adafruit, that code does not belong to me, the rest was written by yours truly!
+    -Ignore all my comments, some of this code was written at the dead of night, and so my contextual sanity was questionable... (haha)
+    -Replace the Wifi Credentials with your own network (or the one you're currently veiwing this on)
 */
 
 //Libraries
