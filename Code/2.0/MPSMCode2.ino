@@ -1,10 +1,10 @@
 /*
-  Projekt: BuoyBoys24
-  Names: Wilson Dhalwani & Vladyslav Kharechko & Peter Rappazzo 
+  Projekt: MPSM
+  Names: Wilson Dhalwani 
   Advisor: Mr. Liva
-  Class: Engineering Research
-  Date: 02/10/2023 
-  Last Updated: 02/11/2023
+  Context: Engineering Research
+  Date: 02/02/2023 
+  Last Updated: 02/10/2023
 */
 
 //Libraries
@@ -34,9 +34,9 @@ int raw;    //raw read value from A0 or 17
 int volt;   //inital volt conversion with decent degree of errorkvk
 int volt2;  //secondary volt conversion with minimal degree of error
 //wifi
-const char* UBIDOTS_TOKEN = "BBFF-kdcXABSmCfmapAA4LTDLU59WMhIBY7";  //UbidotsToken
-const char* WIFI_SSID = "dhalwani";                                 //WifiSSID
-const char* WIFI_PASS = "monish30";                                 //WifiPass
+const char* UBIDOTS_TOKEN = "BBFF-kdcXABSmCfmapAA4LTDLU59WMhIBY7";      //UbidotsToken
+const char* WIFI_SSID = "WIFISSIDHere";                                 //WifiSSID
+const char* WIFI_PASS = "WIFIPASSHere";                                 //WifiPass
 Ubidots ubidots(UBIDOTS_TOKEN, UBI_HTTP);
 
 //Config Functions
