@@ -1,4 +1,4 @@
-# MPSM
+# MPSM Research
 Modular Power Source Management 
 
 Researcher: Wilson Dhalwani <br />
